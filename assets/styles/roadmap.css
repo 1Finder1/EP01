@@ -1,0 +1,68 @@
+.roadmap-block {
+    --alpha: 0.2;
+    background: linear-gradient(to right, rgba(0, 0, 0, var(--alpha)), rgba(0, 0, 0, var(--alpha))), url("../images/roadmap-bg.jpeg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 2rem 7vw;
+
+    /*height: auto;*/
+    /*min-height: 100vw;*/
+}
+
+.roadmap-content {
+    position: relative;
+
+    border: 2px solid #fff;
+}
+
+.roadmap-content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+
+}
+
+.roadmap-content .text p {
+    width: min(690px, 90%);
+}
+
+.roadmap-content .hikes .block-name {
+    font-family: "Sedgwick Ave", sans-serif;
+    font-weight: 400;
+    font-size: 3.75rem;
+    color: var(--secondary);
+
+    text-align: end;
+}
+
+.roadmap-content .hikes .number {
+    font-family: "Sedgwick Ave", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.roadmap-content .hikes .moth {
+    font-family: "Sedgwick Ave", sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #969696;
+}
+
+.roadmap-content .hikes .number-name {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #DDDDDD;
+}
+
+@media (max-width: 476px) {
+    .roadmap-content .hikes .number {
+        font-size: 3rem;
+    }
+    .roadmap-content .hikes .number-name {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+footer {
+    background: #151C21;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+footer .links {
+    color: #BBBBBB;
+}
+
+footer .row .col {
+    width: max-content;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h6 {
+    font-weight: 600;
+}

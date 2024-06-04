@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    z-index: 2;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile.romb-img {
+    --size: 30px;
+    --scale: 1;
+    background: #ffffff;
+
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile.romb-img > img {
+    --scale: 1;
+}
+
+@media (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+    header .nav-btn {
+        display: none;
+    }
+    header {
+        padding: 10px;
+        justify-content: space-between;
+    }
+}
