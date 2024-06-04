@@ -14,7 +14,7 @@ header {
 }
 
 .mobile {
-    display: none;
+    display: none !important;
 }
 
 .mobile.romb-img {
@@ -35,7 +35,7 @@ header {
 
 @media (max-width: 768px) {
     .mobile {
-        display: block;
+        display: block !important;
     }
     header .nav-btn {
         display: none;
